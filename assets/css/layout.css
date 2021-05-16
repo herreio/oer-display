@@ -4,7 +4,7 @@
 
 @media (min-width: 375px) {
   .navbar-resultlist #resultOptions {
-    height: 0px !important;
+    height: 0 !important;
   }
 }
 
@@ -18,9 +18,13 @@
   }
 }
 
+.displayBreadcrumb {
+  padding-top: 30px;
+}
+
 .displayBreadcrumb ol.rootline{
     position:relative;
-    margin-top:12px;
+    margin:0;
     padding:0;
     opacity:.5;
     color:#666;
@@ -90,7 +94,6 @@
   color: #c00;
   font-size: 2.5em !important;
   font-weight: normal !important;
-  margin-top: 36px;
   margin-bottom: 24px;
 }
 
